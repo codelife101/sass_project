@@ -1,0 +1,21 @@
+nav{
+	padding: $padding;
+	background: yellow;
+	border: 15px solid #333;
+	border-radius: 20px;
+	width: $width; 
+	display: none;
+	z-index:3;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	ul{
+		li{
+			padding: $padding;
+		}
+	}
+}
+
+.active{
+	display: block;
+}

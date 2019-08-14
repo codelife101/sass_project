@@ -1,0 +1,46 @@
+@import 'cssReset';
+@import 'variables';
+@import 'images';
+@import 'nav';
+@import 'icons';
+
+
+// $backColor: teal;
+// $padding: 30px;
+// $margin: 40px;
+// $width: 33%;
+
+h1{
+	width: $width;
+	padding: $padding;
+}
+body{
+	background-color: $backColor;
+}
+
+#heading {
+	font-size: 30px;
+	font-family: helvetica;
+	color: tomato;
+	text-align: center;
+	transform: rotate(45deg);
+	transform: scaleY(3.0);
+	margin-top: 300px;
+}
+
+#headingOne {
+	font-size: 30px;
+	font-family: helvetica;
+	color: darkslategrey;
+	text-align: center;
+	transform: rotate(315deg);
+	
+}
+
+p{
+	transform: rotate(77deg);
+	width: $width; 
+	color: wheat;
+	border-top: 20px dotted pink;
+	border-bottom: 100px double red;
+}
