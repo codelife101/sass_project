@@ -15,6 +15,12 @@
   height: 200px;
   display: block; }
 
+.paraTest {
+  width: 80%;
+  margin: auto;
+  border: 2px solid green;
+  background-color: black; }
+
 nav {
   padding: 30px;
   background: yellow;
@@ -40,12 +46,22 @@ nav {
 .material-icons:hover {
   cursor: pointer; }
 
+.btn {
+  width: 100px;
+  height: 30px;
+  font-family: helvetica;
+  font-size: 15px;
+  border-radius: 20px;
+  background: #333;
+  color: #F88A57;
+  border: 3px dotted white; }
+
 h1 {
   width: 33%;
   padding: 30px; }
 
 body {
-  background-color: brown; }
+  background-color: #F88A57; }
 
 #heading {
   font-size: 30px;
@@ -63,11 +79,26 @@ body {
   text-align: center;
   transform: rotate(315deg); }
 
-p {
-  transform: rotate(77deg);
-  width: 33%;
-  color: wheat;
-  border-top: 20px dotted pink;
-  border-bottom: 100px double red; }
+.para, ul {
+  width: 46%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 0 30px; }
+
+.marginLeft {
+  margin-left: 2%; }
+
+.marginRight {
+  margin-right: 2%; }
+
+.test {
+  width: 80%;
+  margin: auto; }
+
+.clearFix {
+  content: "";
+  clear: both;
+  display: table; }
 
 /*# sourceMappingURL=style.css.map */

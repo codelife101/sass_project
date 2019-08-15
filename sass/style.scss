@@ -1,8 +1,11 @@
 @import 'cssReset';
 @import 'variables';
+@import 'mixin';
 @import 'images';
 @import 'nav';
 @import 'icons';
+@import 'button';
+
 
 
 // $backColor: teal;
@@ -15,7 +18,8 @@ h1{
 	padding: $padding;
 }
 body{
-	background-color: $backColor;
+	background-color: #F88A57;
+	
 }
 
 #heading {
@@ -37,10 +41,44 @@ body{
 	
 }
 
-p{
-	transform: rotate(77deg);
-	width: $width; 
-	color: wheat;
-	border-top: 20px dotted pink;
-	border-bottom: 100px double red;
+.para{
+	width: 46%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	padding: 0 30px;
 }
+
+.marginLeft{
+	margin-left: 2%;
+} 
+
+.marginRight {
+	margin-right: 2%;
+} 
+
+
+.test{
+	width: 80%;
+	margin: auto;
+}
+
+.clearFix{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul{
+	@extend .para;
+
+}
+
+
+
+
+
+
+
+
+

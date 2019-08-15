@@ -1,0 +1,9 @@
+@mixin dimension($w, $h){
+	width: $w;
+	height: $h;
+}
+
+@mixin fontF ($ff,$fs){
+	font-family: $ff;
+	font-size: $fs;
+}
